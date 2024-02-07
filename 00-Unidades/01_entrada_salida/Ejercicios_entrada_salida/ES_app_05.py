@@ -43,6 +43,7 @@ class App(customtkinter.CTk):
         nombre = self.txt_nombre.get()
         edad = self.txt_edad.get()
         alert(title= "Datos personales", message= f"Usted se llama {nombre} y tiene {edad} años")
+        
 
         
     
